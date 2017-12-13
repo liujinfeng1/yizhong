@@ -17,7 +17,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
             </intent-filter>
         </activity>
         <activity
@@ -40,7 +40,13 @@
         <activity android:name=".SchoolTeacherActivity" />
         <activity android:name=".CollegeentranceActivity" />
         <activity android:name=".MultimediaTeachingActivity" />
-        <activity android:name=".AlumnusActivity"></activity>
+        <activity android:name=".AlumnusActivity" />
+        <activity android:name=".SplashScreenActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+            ></activity>
     </application>
 
 </manifest>
