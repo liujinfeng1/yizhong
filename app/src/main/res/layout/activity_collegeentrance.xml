@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.snow.CollegeentranceActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="213dp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/school8"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="到目前为止，本科实际录取1146人，列潍坊市所有中学第二位；在2011年夏季高考中，一本进线人数突破600人大关（总考生约为1600人），并获得清华大学优秀生源基地称号。2014年高考，理科700分以上共有4人，690分以上8人，文科675分以上2人，重点本科进线达736人。2015年高考，理科700分以上有3人，文科有3人进入全省前20名，重点本科进线突破800人大关，6人被北京大学、清华大学录取。近五年来有13人考入北京大学、25人考入清华大学，有500多人考入全国名牌大学。2016年高考，理科最高分704（全省31名），文科最高分638（全省23名），重本进线突破770人，有13人超过清华、北大录取分数线，6人被北京大学、清华大学录取。2017年高考，取得了二十多年来的最好成绩，其中理科最高分708（全省第二名），文科最高分662（全省第五名），均为潍坊市第一名，有七名同学考入清华大学和北京大学。安丘一中的高考成绩已连续七年高居潍坊第一。"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="222dp" />
+</android.support.constraint.ConstraintLayout>

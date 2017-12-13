@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.snow.AlumnusActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="236dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/school11"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="百年安丘一中可谓桃李芬芳,英才辈出,涌现出了学术大成的中科院院士刘以训,叱咤风云的共和国将军王绪恭、王仕勇,蜚声海峡两岸的国画大师高滢,中国当代著名诗人马萧萧,著名艺术理论家韩琦等。刘以训,1963年毕业于复旦大学生物系内分泌专业。1966年毕业于中国科学院研究生院。中国科学院动物研究所研究员。30多年来一直从事生殖生物学研究,在上世纪80年代初首先发现GnRH对子宫有直接作用。近年来提出颗粒细胞(GC)产生的纤溶酶原激活因子(tPA)及膜细胞(TC)表达的抑制因子(PAI-1)对调控卵泡破裂起重要作用的新见解。1999年当选为中国科学院院士。"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        tools:layout_editor_absoluteX="0dp" />
+</android.support.constraint.ConstraintLayout>

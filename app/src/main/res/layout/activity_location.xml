@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.snow.LocationActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:scaleType="centerInside"
+        android:layout_width="380dip"
+        android:layout_height="200dip"
+        app:srcCompat="@drawable/location"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="学校位于潍坊市南三十公里处安丘市市区，地理位置优越，东临 206国道，北临胶济铁路、济青高速公路和潍莱高速公路。东北方向附近是美丽的青云湖景区和享有盛誉的国家AAAA级景点－－青云山民俗游乐园。校园内绿树成荫，花草遍地，蟠龙园、蘑菇亭相映成趣，集自然风光和人文风光于一体。
+学校邮编：262100
+2015年安丘一中进行整体迁建。新校区项目占地360亩，规划建筑面积18.3万平方米，计划投资6.63亿元，设计规模144个教学班，在校生7200人，建有图书实验信息楼、综合办公楼、教学楼、公寓楼、餐厅、体育馆等校舍建筑和300米400米塑胶跑道标准运动场地两个。该项目于2015年9月30日开工建设，计划于2016年底基本建成，2017年交付使用。
+2017年10月29日，安丘一中学生正式搬入新校区学习。"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,19 @@
+package com.example.snow;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class LocationActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_location);
+
+        ImageView imageView = findViewById(R.id.imageView2);
+        TextView textView = findViewById(R.id.textView);
+
+    }
+}

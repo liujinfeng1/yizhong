@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.snow.MultimediaTeachingActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        app:srcCompat="@drawable/school10"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="安丘一中正迈入“数字化”校园
+安丘一中新学期开学后，为全体一线教师和分管教学的校干统一配备了笔记本电脑。同时，学校投资70多万元，为所有教室安装了多媒体。现代信息技术的建设，极大地方便了老师们的备课与教学活动，促进了校内多媒体教学的大规模开展，从而进一步巩固了学校的传统优势地位。
+2000年，安丘一中就开始将信息化手段引入课堂教学。学校最初引进的终端设备全部为台式机，难以满足老师们既要查资料，又要备课、讲课的“移动办公”需求，为此，学校决定以笔记本电脑取而代之"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+</android.support.constraint.ConstraintLayout>

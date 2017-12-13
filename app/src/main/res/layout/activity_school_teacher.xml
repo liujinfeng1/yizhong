@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.snow.SchoolTeacherActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/school9"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="305dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:text="目前，学校有特级教师4人，高级教师85人，省市级专业技术拔尖人才3人，市县两级教学能手、学科带头人和教学新秀195人，取得硕士研究生学历的教师78人。山东省安丘市第一中学，是山东省“文明单位”、山东省“教书育人先进单位”、山东省规范化学校、山东省“绿色学校”、山东省“爱国卫生先进单位”、山东省“信誉服务学校”,2011年4月，清华大学百年校庆。安丘一中作为清华大学特邀名校参加了百年庆典。这既是对安丘一中的肯定，更是对安丘一中的鞭策。"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

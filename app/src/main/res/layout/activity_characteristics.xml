@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.snow.CharacteristicsActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:layout_marginBottom="312dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/school7"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:text="一百年来，学校得一方英才而育之。历史名校，雄居一方，龙头高翥，俊彩星驰，滋兰九畹，树蕙百亩，数万学子，英才辈出，龙跃凤鸣，成栋成林。远者有中科院院士刘以训、著名作家马萧萧等，卓尔超群；近者亦是贤者云集，人才荟萃，近 400名博士成为学校一道亮丽的风景。特别是近十余年来，高考成绩一直名列潍坊市乃至山东省前茅，成为莘莘学子求学的理想之地。安丘一中以其悠久的历史、深厚的文化底蕴和突出的办学成绩，赢得了社会各界的广泛赞誉,学校办学思想先进，管理科学，设备齐全，师资力量雄厚。确立了“个性化教育，多元化发展，人性化管理，市场化运作”的办学理念，实行了“全盘细化，全面量化，全员督查，全程评价”的工作保障措施，
+努力培养“有教养，有个性，有思想，有共生意识，有创造力”的人才。安装了天文台、校园多媒体教学网络、校园广播系统，连接了国际互联网，各类教学设备均达到国家一类标准，师生生活设施达到一流水平。"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+</android.support.constraint.ConstraintLayout>
